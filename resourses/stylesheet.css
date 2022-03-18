@@ -1,0 +1,125 @@
+body {
+    font-family: Helvetice, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    box-sizing:border-box;
+    margin-top:0;
+}
+/* Header */
+header {
+    
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width:100%;
+    position:fixed;
+    top: 0;
+    background-color: black;
+}
+header img {
+    float: left;
+    height:50px;
+    margin: 10px;
+}
+ 
+ header li {
+     display: block;
+     float:right;
+     overflow:hidden;
+ }
+ header a {
+    color: seashell;
+    text-align:center;
+    margin: 10px;
+    padding: 5px;
+ }
+/* Hero */
+.container {
+    display: flex;
+    height: 700px;
+    width:1200px;
+    
+    align-items: center;
+    justify-content: center;
+    background-image: url("img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin:69px auto;
+ 
+    
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    width:1200px;
+    flex-wrap: wrap;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    line-height:5px;
+}
+/* Menu */
+.menu {
+    width: 1000px;
+    margin: 100px auto;
+}
+.headers {
+    text-align: center;
+}
+.gallery {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    
+}
+figure {
+    margin: 15px;
+}
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+/* Locations */
+.locations {
+    background-image: url("img-locations-background.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+.locations h2 {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+.location-container {
+    display: flex;
+    justify-content: center;
+    
+}
+.address {
+    height: 300px;
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    opacity: 1;
+    margin: 20px;
+}
+/* Footer */
+.contact {
+    height: 200px;
+    text-align: center;
+}
+footer p {
+    float: left;
+    margin-left: 20px;
+}
